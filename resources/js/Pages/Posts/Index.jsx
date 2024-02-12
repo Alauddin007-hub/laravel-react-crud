@@ -4,7 +4,7 @@ import { Inertia } from "@inertiajs/inertia";
 
 export default function Index(props) {
     const { posts } = usePage().props
-    console.log(posts)
+    // console.log(posts);
 
     function destroy(e) {
         if (confirm("Are you sure you want to delete this user?")) {
